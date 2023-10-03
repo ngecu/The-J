@@ -3,9 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Add your CSS file here for styling -->
 </head>
 <body>
-    <h1>Login Page</h1>
+    <header>
+        <h1>Login</h1>
+    </header>
+    <main>
+        <form id="login-form" action="login.php" method="POST">
+            <label for="username">Username or Email:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Login</button>
+        </form>
+    </main>
+    <footer>
+        <p>Don't have an account? <a href="registration.html">Register here</a></p>
+    </footer>
 </body>
 </html>
