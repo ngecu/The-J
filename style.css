@@ -1,0 +1,87 @@
+/* Reset some default styles */
+body, h1, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the registration form */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the registration form container */
+form {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+/* Style form labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Style form inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style the Register button */
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Style the header text */
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style the footer link */
+footer a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Style the footer link on hover */
+footer a:hover {
+    text-decoration: underline;
+}
